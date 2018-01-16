@@ -25,7 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   # s.description  = <<-DESC
-                   # DESC
+  #	This is a function sets pod.
+  #                  DESC
 
   s.homepage     = "https://github.com/PanZhow/IMXFuncCpt.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -90,10 +91,13 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "IMXFuncCpt", "IMXFuncCpt/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "IMXFuncCpt","IMXFuncCpt/IMXFuncCpt/Libs/2nd/Launcher/**/*.{h,m}"
+  # s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = [
+    "IMXFuncCpt",
+    'IMXFuncCpt/IMXFuncCpt/Libs/2nd/Launcher/**/*.{h}',
+  ]
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
