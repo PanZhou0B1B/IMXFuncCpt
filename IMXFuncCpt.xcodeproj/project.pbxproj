@@ -22,14 +22,14 @@
 
 /* Begin PBXBuildFile section */
 		A1133CB91F21FCCF00D2A774 /* IMXFuncCpt.h in Headers */ = {isa = PBXBuildFile; fileRef = A1133CB61F21FC5700D2A774 /* IMXFuncCpt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A15FF5AF200CC049003D4C07 /* IMXAPPLauncherKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5A7200CC049003D4C07 /* IMXAPPLauncherKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A15FF5B0200CC049003D4C07 /* IMXAPPService.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5A8200CC049003D4C07 /* IMXAPPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A15FF5B1200CC049003D4C07 /* IMXAPPServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5A9200CC049003D4C07 /* IMXAPPServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A15FF5B2200CC049003D4C07 /* IMXAPPServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF5AA200CC049003D4C07 /* IMXAPPServiceManager.m */; };
-		A15FF5B3200CC049003D4C07 /* IMXEntryAPPDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5AB200CC049003D4C07 /* IMXEntryAPPDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A15FF5B4200CC049003D4C07 /* IMXEntryAPPDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF5AC200CC049003D4C07 /* IMXEntryAPPDelegate.m */; };
-		A15FF5B5200CC049003D4C07 /* IMXRootUIAPPService.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5AD200CC049003D4C07 /* IMXRootUIAPPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A15FF5B6200CC049003D4C07 /* IMXRootUIAPPService.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF5AE200CC049003D4C07 /* IMXRootUIAPPService.m */; };
+		A15FF5E6200DDE73003D4C07 /* IMXAPPLauncherKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5DE200DDE73003D4C07 /* IMXAPPLauncherKit.h */; };
+		A15FF5E7200DDE73003D4C07 /* IMXAPPService.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5DF200DDE73003D4C07 /* IMXAPPService.h */; };
+		A15FF5E8200DDE73003D4C07 /* IMXAPPServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5E0200DDE73003D4C07 /* IMXAPPServiceManager.h */; };
+		A15FF5E9200DDE73003D4C07 /* IMXAPPServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF5E1200DDE73003D4C07 /* IMXAPPServiceManager.m */; };
+		A15FF5EA200DDE73003D4C07 /* IMXEntryAPPDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5E2200DDE73003D4C07 /* IMXEntryAPPDelegate.h */; };
+		A15FF5EB200DDE73003D4C07 /* IMXEntryAPPDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF5E3200DDE73003D4C07 /* IMXEntryAPPDelegate.m */; };
+		A15FF5EC200DDE73003D4C07 /* IMXRootUIAPPService.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5E4200DDE73003D4C07 /* IMXRootUIAPPService.h */; };
+		A15FF5ED200DDE73003D4C07 /* IMXRootUIAPPService.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF5E5200DDE73003D4C07 /* IMXRootUIAPPService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,14 +49,14 @@
 		A1133CB61F21FC5700D2A774 /* IMXFuncCpt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMXFuncCpt.h; sourceTree = "<group>"; };
 		A13ABFB61F1F41C900A09D8B /* IMXFuncCpt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMXFuncCpt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13ABFBA1F1F41CA00A09D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A15FF5A7200CC049003D4C07 /* IMXAPPLauncherKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXAPPLauncherKit.h; sourceTree = "<group>"; };
-		A15FF5A8200CC049003D4C07 /* IMXAPPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXAPPService.h; sourceTree = "<group>"; };
-		A15FF5A9200CC049003D4C07 /* IMXAPPServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXAPPServiceManager.h; sourceTree = "<group>"; };
-		A15FF5AA200CC049003D4C07 /* IMXAPPServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXAPPServiceManager.m; sourceTree = "<group>"; };
-		A15FF5AB200CC049003D4C07 /* IMXEntryAPPDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXEntryAPPDelegate.h; sourceTree = "<group>"; };
-		A15FF5AC200CC049003D4C07 /* IMXEntryAPPDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXEntryAPPDelegate.m; sourceTree = "<group>"; };
-		A15FF5AD200CC049003D4C07 /* IMXRootUIAPPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXRootUIAPPService.h; sourceTree = "<group>"; };
-		A15FF5AE200CC049003D4C07 /* IMXRootUIAPPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXRootUIAPPService.m; sourceTree = "<group>"; };
+		A15FF5DE200DDE73003D4C07 /* IMXAPPLauncherKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXAPPLauncherKit.h; sourceTree = "<group>"; };
+		A15FF5DF200DDE73003D4C07 /* IMXAPPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXAPPService.h; sourceTree = "<group>"; };
+		A15FF5E0200DDE73003D4C07 /* IMXAPPServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXAPPServiceManager.h; sourceTree = "<group>"; };
+		A15FF5E1200DDE73003D4C07 /* IMXAPPServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXAPPServiceManager.m; sourceTree = "<group>"; };
+		A15FF5E2200DDE73003D4C07 /* IMXEntryAPPDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXEntryAPPDelegate.h; sourceTree = "<group>"; };
+		A15FF5E3200DDE73003D4C07 /* IMXEntryAPPDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXEntryAPPDelegate.m; sourceTree = "<group>"; };
+		A15FF5E4200DDE73003D4C07 /* IMXRootUIAPPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXRootUIAPPService.h; sourceTree = "<group>"; };
+		A15FF5E5200DDE73003D4C07 /* IMXRootUIAPPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXRootUIAPPService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +157,7 @@
 		A143C1FC1F26E4D900E1FE5D /* 2nd */ = {
 			isa = PBXGroup;
 			children = (
-				A15FF5A6200CC049003D4C07 /* Launcher */,
+				A15FF5DD200DDE73003D4C07 /* Launcher */,
 			);
 			path = 2nd;
 			sourceTree = "<group>";
@@ -169,17 +169,17 @@
 			path = 3rd;
 			sourceTree = "<group>";
 		};
-		A15FF5A6200CC049003D4C07 /* Launcher */ = {
+		A15FF5DD200DDE73003D4C07 /* Launcher */ = {
 			isa = PBXGroup;
 			children = (
-				A15FF5A7200CC049003D4C07 /* IMXAPPLauncherKit.h */,
-				A15FF5A8200CC049003D4C07 /* IMXAPPService.h */,
-				A15FF5A9200CC049003D4C07 /* IMXAPPServiceManager.h */,
-				A15FF5AA200CC049003D4C07 /* IMXAPPServiceManager.m */,
-				A15FF5AB200CC049003D4C07 /* IMXEntryAPPDelegate.h */,
-				A15FF5AC200CC049003D4C07 /* IMXEntryAPPDelegate.m */,
-				A15FF5AD200CC049003D4C07 /* IMXRootUIAPPService.h */,
-				A15FF5AE200CC049003D4C07 /* IMXRootUIAPPService.m */,
+				A15FF5DE200DDE73003D4C07 /* IMXAPPLauncherKit.h */,
+				A15FF5DF200DDE73003D4C07 /* IMXAPPService.h */,
+				A15FF5E0200DDE73003D4C07 /* IMXAPPServiceManager.h */,
+				A15FF5E1200DDE73003D4C07 /* IMXAPPServiceManager.m */,
+				A15FF5E2200DDE73003D4C07 /* IMXEntryAPPDelegate.h */,
+				A15FF5E3200DDE73003D4C07 /* IMXEntryAPPDelegate.m */,
+				A15FF5E4200DDE73003D4C07 /* IMXRootUIAPPService.h */,
+				A15FF5E5200DDE73003D4C07 /* IMXRootUIAPPService.m */,
 			);
 			path = Launcher;
 			sourceTree = "<group>";
@@ -191,12 +191,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15FF5B0200CC049003D4C07 /* IMXAPPService.h in Headers */,
-				A15FF5AF200CC049003D4C07 /* IMXAPPLauncherKit.h in Headers */,
-				A15FF5B1200CC049003D4C07 /* IMXAPPServiceManager.h in Headers */,
-				A15FF5B5200CC049003D4C07 /* IMXRootUIAPPService.h in Headers */,
-				A15FF5B3200CC049003D4C07 /* IMXEntryAPPDelegate.h in Headers */,
+				A15FF5E7200DDE73003D4C07 /* IMXAPPService.h in Headers */,
+				A15FF5E6200DDE73003D4C07 /* IMXAPPLauncherKit.h in Headers */,
+				A15FF5EA200DDE73003D4C07 /* IMXEntryAPPDelegate.h in Headers */,
+				A15FF5EC200DDE73003D4C07 /* IMXRootUIAPPService.h in Headers */,
 				A1133CB91F21FCCF00D2A774 /* IMXFuncCpt.h in Headers */,
+				A15FF5E8200DDE73003D4C07 /* IMXAPPServiceManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,9 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15FF5B6200CC049003D4C07 /* IMXRootUIAPPService.m in Sources */,
-				A15FF5B4200CC049003D4C07 /* IMXEntryAPPDelegate.m in Sources */,
-				A15FF5B2200CC049003D4C07 /* IMXAPPServiceManager.m in Sources */,
+				A15FF5ED200DDE73003D4C07 /* IMXRootUIAPPService.m in Sources */,
+				A15FF5EB200DDE73003D4C07 /* IMXEntryAPPDelegate.m in Sources */,
+				A15FF5E9200DDE73003D4C07 /* IMXAPPServiceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
