@@ -38,23 +38,23 @@
 		A15FF600200EFA48003D4C07 /* MTXBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF5F7200EFA48003D4C07 /* MTXBasePresenter.m */; };
 		A15FF601200EFA48003D4C07 /* MTXPresenterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5F8200EFA48003D4C07 /* MTXPresenterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF602200EFA48003D4C07 /* MTXPresenterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5F9200EFA48003D4C07 /* MTXPresenterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A15FF61C200F671B003D4C07 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF60A200F671B003D4C07 /* EXTScope.h */; };
+		A15FF61C200F671B003D4C07 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF60A200F671B003D4C07 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF61D200F671B003D4C07 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF60B200F671B003D4C07 /* EXTScope.m */; };
-		A15FF61E200F671B003D4C07 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF60C200F671B003D4C07 /* metamacros.h */; };
-		A15FF61F200F671B003D4C07 /* IMXObjectExtUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF60D200F671B003D4C07 /* IMXObjectExtUtil.h */; };
-		A15FF620200F671B003D4C07 /* NSArray+IMXSafeCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF60E200F671B003D4C07 /* NSArray+IMXSafeCheck.h */; };
+		A15FF61E200F671B003D4C07 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF60C200F671B003D4C07 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF61F200F671B003D4C07 /* IMXObjectExtUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF60D200F671B003D4C07 /* IMXObjectExtUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF620200F671B003D4C07 /* NSArray+IMXSafeCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF60E200F671B003D4C07 /* NSArray+IMXSafeCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF621200F671B003D4C07 /* NSArray+IMXSafeCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF60F200F671B003D4C07 /* NSArray+IMXSafeCheck.m */; };
-		A15FF622200F671B003D4C07 /* NSAttributedString+IMXHighlightKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF610200F671B003D4C07 /* NSAttributedString+IMXHighlightKit.h */; };
+		A15FF622200F671B003D4C07 /* NSAttributedString+IMXHighlightKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF610200F671B003D4C07 /* NSAttributedString+IMXHighlightKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF623200F671B003D4C07 /* NSAttributedString+IMXHighlightKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF611200F671B003D4C07 /* NSAttributedString+IMXHighlightKit.m */; };
-		A15FF624200F671B003D4C07 /* NSDate+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF612200F671B003D4C07 /* NSDate+Extension.h */; };
+		A15FF624200F671B003D4C07 /* NSDate+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF612200F671B003D4C07 /* NSDate+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF625200F671B003D4C07 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF613200F671B003D4C07 /* NSDate+Extension.m */; };
-		A15FF626200F671B003D4C07 /* NSDictionary+IMXSafeCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF614200F671B003D4C07 /* NSDictionary+IMXSafeCheck.h */; };
+		A15FF626200F671B003D4C07 /* NSDictionary+IMXSafeCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF614200F671B003D4C07 /* NSDictionary+IMXSafeCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF627200F671B003D4C07 /* NSDictionary+IMXSafeCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF615200F671B003D4C07 /* NSDictionary+IMXSafeCheck.m */; };
-		A15FF628200F671B003D4C07 /* NSObject+IMXExtFork.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF616200F671B003D4C07 /* NSObject+IMXExtFork.h */; };
+		A15FF628200F671B003D4C07 /* NSObject+IMXExtFork.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF616200F671B003D4C07 /* NSObject+IMXExtFork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF629200F671B003D4C07 /* NSObject+IMXExtFork.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF617200F671B003D4C07 /* NSObject+IMXExtFork.m */; };
-		A15FF62A200F671B003D4C07 /* NSString+IMXFormatCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF618200F671B003D4C07 /* NSString+IMXFormatCheck.h */; };
+		A15FF62A200F671B003D4C07 /* NSString+IMXFormatCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF618200F671B003D4C07 /* NSString+IMXFormatCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF62B200F671B003D4C07 /* NSString+IMXFormatCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF619200F671B003D4C07 /* NSString+IMXFormatCheck.m */; };
-		A15FF62C200F671B003D4C07 /* NSString+IMXSafeCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF61A200F671B003D4C07 /* NSString+IMXSafeCheck.h */; };
+		A15FF62C200F671B003D4C07 /* NSString+IMXSafeCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF61A200F671B003D4C07 /* NSString+IMXSafeCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF62D200F671B003D4C07 /* NSString+IMXSafeCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF61B200F671B003D4C07 /* NSString+IMXSafeCheck.m */; };
 /* End PBXBuildFile section */
 
@@ -288,7 +288,9 @@
 		A15FF608200F671B003D4C07 /* IMXObjectExt */ = {
 			isa = PBXGroup;
 			children = (
-				A15FF609200F671B003D4C07 /* ExtObjc */,
+				A15FF60A200F671B003D4C07 /* EXTScope.h */,
+				A15FF60B200F671B003D4C07 /* EXTScope.m */,
+				A15FF60C200F671B003D4C07 /* metamacros.h */,
 				A15FF60D200F671B003D4C07 /* IMXObjectExtUtil.h */,
 				A15FF60E200F671B003D4C07 /* NSArray+IMXSafeCheck.h */,
 				A15FF60F200F671B003D4C07 /* NSArray+IMXSafeCheck.m */,
@@ -308,16 +310,6 @@
 			path = IMXObjectExt;
 			sourceTree = "<group>";
 		};
-		A15FF609200F671B003D4C07 /* ExtObjc */ = {
-			isa = PBXGroup;
-			children = (
-				A15FF60A200F671B003D4C07 /* EXTScope.h */,
-				A15FF60B200F671B003D4C07 /* EXTScope.m */,
-				A15FF60C200F671B003D4C07 /* metamacros.h */,
-			);
-			path = ExtObjc;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -327,25 +319,25 @@
 			files = (
 				A15FF5E7200DDE73003D4C07 /* IMXAPPService.h in Headers */,
 				A15FF5E6200DDE73003D4C07 /* IMXAPPLauncherKit.h in Headers */,
-				A15FF620200F671B003D4C07 /* NSArray+IMXSafeCheck.h in Headers */,
-				A15FF628200F671B003D4C07 /* NSObject+IMXExtFork.h in Headers */,
-				A15FF61E200F671B003D4C07 /* metamacros.h in Headers */,
 				A15FF5EC200DDE73003D4C07 /* IMXRootUIAPPService.h in Headers */,
 				A15FF5FC200EFA48003D4C07 /* MTXBaseInteractor.h in Headers */,
-				A15FF62C200F671B003D4C07 /* NSString+IMXSafeCheck.h in Headers */,
+				A15FF61E200F671B003D4C07 /* metamacros.h in Headers */,
+				A15FF620200F671B003D4C07 /* NSArray+IMXSafeCheck.h in Headers */,
 				A15FF61C200F671B003D4C07 /* EXTScope.h in Headers */,
+				A15FF62C200F671B003D4C07 /* NSString+IMXSafeCheck.h in Headers */,
+				A15FF628200F671B003D4C07 /* NSObject+IMXExtFork.h in Headers */,
 				A15FF62A200F671B003D4C07 /* NSString+IMXFormatCheck.h in Headers */,
-				A15FF624200F671B003D4C07 /* NSDate+Extension.h in Headers */,
 				A15FF626200F671B003D4C07 /* NSDictionary+IMXSafeCheck.h in Headers */,
-				A15FF5FF200EFA48003D4C07 /* MTXBasePresenter.h in Headers */,
-				A15FF5E8200DDE73003D4C07 /* IMXAPPServiceManager.h in Headers */,
 				A15FF622200F671B003D4C07 /* NSAttributedString+IMXHighlightKit.h in Headers */,
+				A15FF624200F671B003D4C07 /* NSDate+Extension.h in Headers */,
+				A15FF5FF200EFA48003D4C07 /* MTXBasePresenter.h in Headers */,
+				A15FF61F200F671B003D4C07 /* IMXObjectExtUtil.h in Headers */,
+				A15FF5E8200DDE73003D4C07 /* IMXAPPServiceManager.h in Headers */,
 				A15FF5FB200EFA48003D4C07 /* IMXMVIP.h in Headers */,
 				A15FF601200EFA48003D4C07 /* MTXPresenterDelegate.h in Headers */,
 				A15FF5FE200EFA48003D4C07 /* MTXInteractorProtocol.h in Headers */,
 				A15FF602200EFA48003D4C07 /* MTXPresenterProtocol.h in Headers */,
 				A15FF5EA200DDE73003D4C07 /* IMXEntryAPPDelegate.h in Headers */,
-				A15FF61F200F671B003D4C07 /* IMXObjectExtUtil.h in Headers */,
 				A1133CB91F21FCCF00D2A774 /* IMXFuncCpt.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
