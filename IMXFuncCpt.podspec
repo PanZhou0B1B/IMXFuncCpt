@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
 
   s.author             = { "zhoupanpan" => "2331838272@qq.com" }
   
-  s.ios.deployment_target = '8.0' #  When using multiple platforms
+  s.platform     = :ios, "8.0"
+  #s.ios.deployment_target = '8.0' #  When using multiple platforms
 
   s.homepage     = "https://github.com/PanZhow/IMXFuncCpt.git"
   s.source       = { :git => "https://github.com/PanZhow/IMXFuncCpt.git", :tag => "#{s.version}" }
