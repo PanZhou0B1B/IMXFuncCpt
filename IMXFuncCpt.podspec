@@ -32,5 +32,31 @@ Pod::Spec.new do |s|
     ]
   end
 
+# MVIP Cpt
+  s.subspec 'MVIP' do |mvp|
+    mvp.source_files  = 'IMXFuncCpt/Libs/2nd/MVIP/*.{h,m}'
+    mvp.public_header_files = [
+      'IMXFuncCpt/Libs/2nd/MVIP/*.{h}'
+    ]
+
+    #mvp.subspec 'Model' do |m|
+      
+    #end
+    #mvp.subspec 'View' do |v|
+      
+    #end
+    mvp.subspec 'Interactor' do |i|
+      i.source_files  = 'IMXFuncCpt/Libs/2nd/MVIP/Interactor/*.{h,m}'
+      i.public_header_files = [
+        'IMXFuncCpt/Libs/2nd/MVIP/Interactor/*.{h}'
+      ]
+    end
+    mvp.subspec 'Presenter' do |p|
+      p.source_files  = 'IMXFuncCpt/Libs/2nd/MVIP/Presenter/*.{h,m}'
+      p.public_header_files = [
+        'IMXFuncCpt/Libs/2nd/MVIP/Presenter/*.{h}'
+      ]
+    end
+  end
 
 end

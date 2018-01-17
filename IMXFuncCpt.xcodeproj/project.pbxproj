@@ -30,6 +30,14 @@
 		A15FF5EB200DDE73003D4C07 /* IMXEntryAPPDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF5E3200DDE73003D4C07 /* IMXEntryAPPDelegate.m */; };
 		A15FF5EC200DDE73003D4C07 /* IMXRootUIAPPService.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5E4200DDE73003D4C07 /* IMXRootUIAPPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF5ED200DDE73003D4C07 /* IMXRootUIAPPService.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF5E5200DDE73003D4C07 /* IMXRootUIAPPService.m */; };
+		A15FF5FB200EFA48003D4C07 /* IMXMVIP.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5EF200EFA48003D4C07 /* IMXMVIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF5FC200EFA48003D4C07 /* MTXBaseInteractor.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5F1200EFA48003D4C07 /* MTXBaseInteractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF5FD200EFA48003D4C07 /* MTXBaseInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF5F2200EFA48003D4C07 /* MTXBaseInteractor.m */; };
+		A15FF5FE200EFA48003D4C07 /* MTXInteractorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5F3200EFA48003D4C07 /* MTXInteractorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF5FF200EFA48003D4C07 /* MTXBasePresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5F6200EFA48003D4C07 /* MTXBasePresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF600200EFA48003D4C07 /* MTXBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF5F7200EFA48003D4C07 /* MTXBasePresenter.m */; };
+		A15FF601200EFA48003D4C07 /* MTXPresenterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5F8200EFA48003D4C07 /* MTXPresenterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF602200EFA48003D4C07 /* MTXPresenterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF5F9200EFA48003D4C07 /* MTXPresenterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +65,14 @@
 		A15FF5E3200DDE73003D4C07 /* IMXEntryAPPDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXEntryAPPDelegate.m; sourceTree = "<group>"; };
 		A15FF5E4200DDE73003D4C07 /* IMXRootUIAPPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXRootUIAPPService.h; sourceTree = "<group>"; };
 		A15FF5E5200DDE73003D4C07 /* IMXRootUIAPPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXRootUIAPPService.m; sourceTree = "<group>"; };
+		A15FF5EF200EFA48003D4C07 /* IMXMVIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXMVIP.h; sourceTree = "<group>"; };
+		A15FF5F1200EFA48003D4C07 /* MTXBaseInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXBaseInteractor.h; sourceTree = "<group>"; };
+		A15FF5F2200EFA48003D4C07 /* MTXBaseInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTXBaseInteractor.m; sourceTree = "<group>"; };
+		A15FF5F3200EFA48003D4C07 /* MTXInteractorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXInteractorProtocol.h; sourceTree = "<group>"; };
+		A15FF5F6200EFA48003D4C07 /* MTXBasePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXBasePresenter.h; sourceTree = "<group>"; };
+		A15FF5F7200EFA48003D4C07 /* MTXBasePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTXBasePresenter.m; sourceTree = "<group>"; };
+		A15FF5F8200EFA48003D4C07 /* MTXPresenterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXPresenterDelegate.h; sourceTree = "<group>"; };
+		A15FF5F9200EFA48003D4C07 /* MTXPresenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTXPresenterProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +173,7 @@
 		A143C1FC1F26E4D900E1FE5D /* 2nd */ = {
 			isa = PBXGroup;
 			children = (
+				A15FF5EE200EFA48003D4C07 /* MVIP */,
 				A15FF5DD200DDE73003D4C07 /* Launcher */,
 			);
 			path = 2nd;
@@ -184,6 +201,53 @@
 			path = Launcher;
 			sourceTree = "<group>";
 		};
+		A15FF5EE200EFA48003D4C07 /* MVIP */ = {
+			isa = PBXGroup;
+			children = (
+				A15FF5EF200EFA48003D4C07 /* IMXMVIP.h */,
+				A15FF5F0200EFA48003D4C07 /* Interactor */,
+				A15FF5F4200EFA48003D4C07 /* Model */,
+				A15FF5F5200EFA48003D4C07 /* Presenter */,
+				A15FF5FA200EFA48003D4C07 /* View */,
+			);
+			path = MVIP;
+			sourceTree = "<group>";
+		};
+		A15FF5F0200EFA48003D4C07 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A15FF5F1200EFA48003D4C07 /* MTXBaseInteractor.h */,
+				A15FF5F2200EFA48003D4C07 /* MTXBaseInteractor.m */,
+				A15FF5F3200EFA48003D4C07 /* MTXInteractorProtocol.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A15FF5F4200EFA48003D4C07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A15FF5F5200EFA48003D4C07 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A15FF5F6200EFA48003D4C07 /* MTXBasePresenter.h */,
+				A15FF5F7200EFA48003D4C07 /* MTXBasePresenter.m */,
+				A15FF5F8200EFA48003D4C07 /* MTXPresenterDelegate.h */,
+				A15FF5F9200EFA48003D4C07 /* MTXPresenterProtocol.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A15FF5FA200EFA48003D4C07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -194,7 +258,13 @@
 				A15FF5E7200DDE73003D4C07 /* IMXAPPService.h in Headers */,
 				A15FF5E6200DDE73003D4C07 /* IMXAPPLauncherKit.h in Headers */,
 				A15FF5EC200DDE73003D4C07 /* IMXRootUIAPPService.h in Headers */,
+				A15FF5FC200EFA48003D4C07 /* MTXBaseInteractor.h in Headers */,
+				A15FF5FF200EFA48003D4C07 /* MTXBasePresenter.h in Headers */,
 				A15FF5E8200DDE73003D4C07 /* IMXAPPServiceManager.h in Headers */,
+				A15FF5FB200EFA48003D4C07 /* IMXMVIP.h in Headers */,
+				A15FF601200EFA48003D4C07 /* MTXPresenterDelegate.h in Headers */,
+				A15FF5FE200EFA48003D4C07 /* MTXInteractorProtocol.h in Headers */,
+				A15FF602200EFA48003D4C07 /* MTXPresenterProtocol.h in Headers */,
 				A15FF5EA200DDE73003D4C07 /* IMXEntryAPPDelegate.h in Headers */,
 				A1133CB91F21FCCF00D2A774 /* IMXFuncCpt.h in Headers */,
 			);
@@ -305,8 +375,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A15FF5ED200DDE73003D4C07 /* IMXRootUIAPPService.m in Sources */,
+				A15FF5FD200EFA48003D4C07 /* MTXBaseInteractor.m in Sources */,
 				A15FF5EB200DDE73003D4C07 /* IMXEntryAPPDelegate.m in Sources */,
 				A15FF5E9200DDE73003D4C07 /* IMXAPPServiceManager.m in Sources */,
+				A15FF600200EFA48003D4C07 /* MTXBasePresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
