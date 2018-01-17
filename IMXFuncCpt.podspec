@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
  
 # Launcher Cpt
   s.subspec 'Launcher' do |lcr|
-    s.source_files  = 'IMXFuncCpt/Libs/2nd/Launcher/*.{h,m}'
-    s.public_header_files = [
+    lcr.source_files  = 'IMXFuncCpt/Libs/2nd/Launcher/*.{h,m}'
+    lcr.public_header_files = [
       'IMXFuncCpt/Libs/2nd/Launcher/*.{h}'
     ]
   end
