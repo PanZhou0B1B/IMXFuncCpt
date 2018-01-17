@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "IMXFuncCpt"
-  s.version      = "1.0.0"
+  s.version      = "1.0.0_fmwk"
   s.summary      = "IMXFuncCpt:function componet sets."
 
   # This description is used to generate tags and improve search results.
@@ -80,8 +80,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/PanZhow/IMXFuncCpt.git", :tag => "#{s.version}" }
-
+ # s.source       = { :git => "https://github.com/PanZhow/IMXFuncCpt.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/PanZhow/IMXFuncCpt.git", :tag => "1.0.0_fmwk" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -91,12 +91,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'IMXFuncCpt/Libs/2nd/Launcher/*.{h,m}'
+  # s.source_files  = 'IMXFuncCpt/Libs/2nd/Launcher/*.{h,m}'
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = [
-    'IMXFuncCpt/Libs/2nd/Launcher/*.{h}'
-  ]
+  
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -110,8 +108,9 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
+   s.preserve_paths = 'IMXFuncCpt-1.0.0/ios/IMXFuncCpt.framework'
+   s.ios.deployment_target    = '8.0'
+   s.ios.vendored_framework   = 'IMXFuncCpt.framework'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
