@@ -19,7 +19,7 @@
 #import "NSString+IMXSafeCheck.h"
 #import "NSArray+IMXSafeCheck.h"
 #import "NSDictionary+IMXSafeCheck.h"
-#import "IMXBaseCpt/EXTScope.h"
+#import "EXTScope.h"
 #import "metamacros.h"
 #import "NSAttributedString+IMXHighlightKit.h"
 #import "NSObject+IMXExtFork.h"
