@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "IMXFuncCpt"
-  s.version      = "1.0.0_fmwk"
+  s.version      = "1.0.1"
   s.summary      = "IMXFuncCpt:function componet sets."
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #
 
  # s.source       = { :git => "https://github.com/PanZhow/IMXFuncCpt.git", :tag => "#{s.version}" }
-  s.source       = { :git => "https://github.com/PanZhow/IMXFuncCpt.git", :tag => "1.0.0_fmwk" }
+  s.source       = { :git => "https://github.com/PanZhow/IMXFuncCpt.git", :tag => "#{s.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -110,7 +110,7 @@ Pod::Spec.new do |s|
 
    s.preserve_paths = 'IMXFuncCpt-1.0.0/ios/IMXFuncCpt.framework'
    s.ios.deployment_target    = '8.0'
-   s.ios.vendored_framework   = 'IMXFuncCpt.framework'
+   s.ios.vendored_framework   = 'IMXFuncCpt-1.0.0/ios/IMXFuncCpt.framework'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
