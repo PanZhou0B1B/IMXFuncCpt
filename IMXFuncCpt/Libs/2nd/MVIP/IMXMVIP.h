@@ -11,10 +11,10 @@
 
 typedef void (^mtx_mvip_fbBlock)(id ret);
 
-#import <IMXBaseCpt/MTXInteractorProtocol.h>
-#import <IMXBaseCpt/MTXBaseInteractor.h>
-#import <IMXBaseCpt/MTXPresenterProtocol.h>
-#import <IMXBaseCpt/MTXPresenterDelegate.h>
-#import <IMXBaseCpt/MTXBasePresenter.h>
+#import "MTXInteractorProtocol.h"
+#import "MTXBaseInteractor.h"
+#import "MTXPresenterProtocol.h"
+#import "MTXPresenterDelegate.h"
+#import "MTXBasePresenter.h"
 
 #endif /* IMXMVIP_h */
