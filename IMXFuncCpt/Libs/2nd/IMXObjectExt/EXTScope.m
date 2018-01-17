@@ -9,6 +9,10 @@
 
 #import "EXTScope.h"
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wstrict-prototypes"
 void ext_executeCleanupBlock(__strong ext_cleanupBlock_t *block) {
     (*block)();
 }
+
+#pragma clang diagnostic pop
