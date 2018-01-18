@@ -56,6 +56,12 @@
 		A15FF62B200F671B003D4C07 /* NSString+IMXFormatCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF619200F671B003D4C07 /* NSString+IMXFormatCheck.m */; };
 		A15FF62C200F671B003D4C07 /* NSString+IMXSafeCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF61A200F671B003D4C07 /* NSString+IMXSafeCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF62D200F671B003D4C07 /* NSString+IMXSafeCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF61B200F671B003D4C07 /* NSString+IMXSafeCheck.m */; };
+		A15FF63620103B6D003D4C07 /* IMXArchiverUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF62F20103B6D003D4C07 /* IMXArchiverUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF63720103B6D003D4C07 /* IMXArchiverUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF63020103B6D003D4C07 /* IMXArchiverUtil.m */; };
+		A15FF63820103B6D003D4C07 /* IMXPersistenceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF63120103B6D003D4C07 /* IMXPersistenceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF64120103B95003D4C07 /* IMXSecurityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF63E20103B95003D4C07 /* IMXSecurityKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF64220103B95003D4C07 /* NSString+IMXSecurityFork.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF63F20103B95003D4C07 /* NSString+IMXSecurityFork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF64320103B95003D4C07 /* NSString+IMXSecurityFork.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF64020103B95003D4C07 /* NSString+IMXSecurityFork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +115,12 @@
 		A15FF619200F671B003D4C07 /* NSString+IMXFormatCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMXFormatCheck.m"; sourceTree = "<group>"; };
 		A15FF61A200F671B003D4C07 /* NSString+IMXSafeCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IMXSafeCheck.h"; sourceTree = "<group>"; };
 		A15FF61B200F671B003D4C07 /* NSString+IMXSafeCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMXSafeCheck.m"; sourceTree = "<group>"; };
+		A15FF62F20103B6D003D4C07 /* IMXArchiverUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXArchiverUtil.h; sourceTree = "<group>"; };
+		A15FF63020103B6D003D4C07 /* IMXArchiverUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXArchiverUtil.m; sourceTree = "<group>"; };
+		A15FF63120103B6D003D4C07 /* IMXPersistenceKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXPersistenceKit.h; sourceTree = "<group>"; };
+		A15FF63E20103B95003D4C07 /* IMXSecurityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXSecurityKit.h; sourceTree = "<group>"; };
+		A15FF63F20103B95003D4C07 /* NSString+IMXSecurityFork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IMXSecurityFork.h"; sourceTree = "<group>"; };
+		A15FF64020103B95003D4C07 /* NSString+IMXSecurityFork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMXSecurityFork.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +221,8 @@
 		A143C1FC1F26E4D900E1FE5D /* 2nd */ = {
 			isa = PBXGroup;
 			children = (
+				A15FF63D20103B95003D4C07 /* IMXSecurity */,
+				A15FF62E20103B6D003D4C07 /* IMXPersistence */,
 				A15FF608200F671B003D4C07 /* IMXObjectExt */,
 				A15FF5EE200EFA48003D4C07 /* MVIP */,
 				A15FF5DD200DDE73003D4C07 /* Launcher */,
@@ -310,6 +324,26 @@
 			path = IMXObjectExt;
 			sourceTree = "<group>";
 		};
+		A15FF62E20103B6D003D4C07 /* IMXPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				A15FF62F20103B6D003D4C07 /* IMXArchiverUtil.h */,
+				A15FF63020103B6D003D4C07 /* IMXArchiverUtil.m */,
+				A15FF63120103B6D003D4C07 /* IMXPersistenceKit.h */,
+			);
+			path = IMXPersistence;
+			sourceTree = "<group>";
+		};
+		A15FF63D20103B95003D4C07 /* IMXSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				A15FF63E20103B95003D4C07 /* IMXSecurityKit.h */,
+				A15FF63F20103B95003D4C07 /* NSString+IMXSecurityFork.h */,
+				A15FF64020103B95003D4C07 /* NSString+IMXSecurityFork.m */,
+			);
+			path = IMXSecurity;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -333,8 +367,12 @@
 				A15FF5FF200EFA48003D4C07 /* MTXBasePresenter.h in Headers */,
 				A15FF61F200F671B003D4C07 /* IMXObjectExtUtil.h in Headers */,
 				A15FF5E8200DDE73003D4C07 /* IMXAPPServiceManager.h in Headers */,
+				A15FF63620103B6D003D4C07 /* IMXArchiverUtil.h in Headers */,
+				A15FF64220103B95003D4C07 /* NSString+IMXSecurityFork.h in Headers */,
+				A15FF63820103B6D003D4C07 /* IMXPersistenceKit.h in Headers */,
 				A15FF5FB200EFA48003D4C07 /* IMXMVIP.h in Headers */,
 				A15FF601200EFA48003D4C07 /* MTXPresenterDelegate.h in Headers */,
+				A15FF64120103B95003D4C07 /* IMXSecurityKit.h in Headers */,
 				A15FF5FE200EFA48003D4C07 /* MTXInteractorProtocol.h in Headers */,
 				A15FF602200EFA48003D4C07 /* MTXPresenterProtocol.h in Headers */,
 				A15FF5EA200DDE73003D4C07 /* IMXEntryAPPDelegate.h in Headers */,
@@ -446,8 +484,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15FF64320103B95003D4C07 /* NSString+IMXSecurityFork.m in Sources */,
 				A15FF623200F671B003D4C07 /* NSAttributedString+IMXHighlightKit.m in Sources */,
 				A15FF629200F671B003D4C07 /* NSObject+IMXExtFork.m in Sources */,
+				A15FF63720103B6D003D4C07 /* IMXArchiverUtil.m in Sources */,
 				A15FF61D200F671B003D4C07 /* EXTScope.m in Sources */,
 				A15FF5ED200DDE73003D4C07 /* IMXRootUIAPPService.m in Sources */,
 				A15FF5FD200EFA48003D4C07 /* MTXBaseInteractor.m in Sources */,

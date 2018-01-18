@@ -67,4 +67,21 @@ Pod::Spec.new do |s|
     ]
     oext.compiler_flags = '-Wstrict-prototype'
   end
+
+# IMXSecurity Cpt
+  s.subspec 'IMXSecurity' do |srty|
+    srty.source_files  = 'IMXFuncCpt/Libs/2nd/IMXSecurity/*.{h,m}'
+    srty.public_header_files = [
+      'IMXFuncCpt/Libs/2nd/IMXSecurity/*.{h}'
+    ]
+  end
+
+# IMXPersistence Cpt
+  s.subspec 'IMXPersistence' do |pst|
+    pst.source_files  = 'IMXFuncCpt/Libs/2nd/IMXPersistence/*.{h,m}'
+    pst.public_header_files = [
+      'IMXFuncCpt/Libs/2nd/IMXPersistence/*.{h}'
+    ]
+    #pst.frameworks = 'CommonCrypto'
+  end
 end
