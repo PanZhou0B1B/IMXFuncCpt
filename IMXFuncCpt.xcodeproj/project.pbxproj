@@ -62,6 +62,8 @@
 		A15FF64120103B95003D4C07 /* IMXSecurityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF63E20103B95003D4C07 /* IMXSecurityKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF64220103B95003D4C07 /* NSString+IMXSecurityFork.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF63F20103B95003D4C07 /* NSString+IMXSecurityFork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF64320103B95003D4C07 /* NSString+IMXSecurityFork.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF64020103B95003D4C07 /* NSString+IMXSecurityFork.m */; };
+		A15FF64720104105003D4C07 /* IMXValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF64520104105003D4C07 /* IMXValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF64820104105003D4C07 /* IMXValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF64620104105003D4C07 /* IMXValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -121,6 +123,8 @@
 		A15FF63E20103B95003D4C07 /* IMXSecurityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXSecurityKit.h; sourceTree = "<group>"; };
 		A15FF63F20103B95003D4C07 /* NSString+IMXSecurityFork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IMXSecurityFork.h"; sourceTree = "<group>"; };
 		A15FF64020103B95003D4C07 /* NSString+IMXSecurityFork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMXSecurityFork.m"; sourceTree = "<group>"; };
+		A15FF64520104105003D4C07 /* IMXValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXValidator.h; sourceTree = "<group>"; };
+		A15FF64620104105003D4C07 /* IMXValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXValidator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +225,7 @@
 		A143C1FC1F26E4D900E1FE5D /* 2nd */ = {
 			isa = PBXGroup;
 			children = (
+				A15FF64420104105003D4C07 /* IMXValidator */,
 				A15FF63D20103B95003D4C07 /* IMXSecurity */,
 				A15FF62E20103B6D003D4C07 /* IMXPersistence */,
 				A15FF608200F671B003D4C07 /* IMXObjectExt */,
@@ -344,6 +349,15 @@
 			path = IMXSecurity;
 			sourceTree = "<group>";
 		};
+		A15FF64420104105003D4C07 /* IMXValidator */ = {
+			isa = PBXGroup;
+			children = (
+				A15FF64520104105003D4C07 /* IMXValidator.h */,
+				A15FF64620104105003D4C07 /* IMXValidator.m */,
+			);
+			path = IMXValidator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -368,6 +382,7 @@
 				A15FF61F200F671B003D4C07 /* IMXObjectExtUtil.h in Headers */,
 				A15FF5E8200DDE73003D4C07 /* IMXAPPServiceManager.h in Headers */,
 				A15FF63620103B6D003D4C07 /* IMXArchiverUtil.h in Headers */,
+				A15FF64720104105003D4C07 /* IMXValidator.h in Headers */,
 				A15FF64220103B95003D4C07 /* NSString+IMXSecurityFork.h in Headers */,
 				A15FF63820103B6D003D4C07 /* IMXPersistenceKit.h in Headers */,
 				A15FF5FB200EFA48003D4C07 /* IMXMVIP.h in Headers */,
@@ -497,6 +512,7 @@
 				A15FF62B200F671B003D4C07 /* NSString+IMXFormatCheck.m in Sources */,
 				A15FF627200F671B003D4C07 /* NSDictionary+IMXSafeCheck.m in Sources */,
 				A15FF600200EFA48003D4C07 /* MTXBasePresenter.m in Sources */,
+				A15FF64820104105003D4C07 /* IMXValidator.m in Sources */,
 				A15FF62D200F671B003D4C07 /* NSString+IMXSafeCheck.m in Sources */,
 				A15FF625200F671B003D4C07 /* NSDate+Extension.m in Sources */,
 			);
