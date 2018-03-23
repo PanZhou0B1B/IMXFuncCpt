@@ -27,6 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface IMXAPPServiceManager : NSObject
 + (IMXAPPServiceManager *)sharedInstance;
 - (void)registerService:(id<IMXAPPService>)service;
+- (id<IMXAPPService>)serviceForName:(NSString *)serviceName;
 
 - (BOOL)proxyCanResponseToSelector:(SEL)aSelector;
 - (void)proxyForwardInvocation:(NSInvocation *)anInvocation;

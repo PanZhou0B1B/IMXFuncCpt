@@ -38,8 +38,8 @@
     id<IMXAPPService> exitService = [self exitServiceForServiceName:key];
     if(exitService){
         if([service isKindOfClass:[exitService class]]){
-            [self addService2Queue:service];
             [self removeService:exitService];
+            [self addService2Queue:service];
         }else{
             NSAssert([exitService isKindOfClass:[service class]],
                      @"Tried to register both %@ and %@ as the handler of %@ service. \
@@ -50,7 +50,12 @@
         [self addService2Queue:service];
     }
 }
+- (id<IMXAPPService>)serviceForName:(NSString *)serviceName{
+    if(!serviceName) { return nil; }
 
+    id<IMXAPPService> exitService = [self exitServiceForServiceName:serviceName];
+    return exitService;
+}
 
 - (BOOL)proxyCanResponseToSelector:(SEL)aSelector{
     __block IMP imp = NULL;
